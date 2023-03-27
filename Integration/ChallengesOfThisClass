@@ -1,0 +1,7 @@
+Challenges of this class
+
+1. Consume the Most Popular Movies endpoint from IMDB API. Also look, in the IMDB API documentation, for the endpoint trah returns the best series and the one that returns the most popular series. Check the challenge resolution here.
+
+2. Use you creativity to make the data output prettier: use emojis with UTF-8 code, show the movie note little stars, decorate the terminal with collors, bold and italics using ANSI codes, and more!
+
+3. Putting the IMDB API key somewhere outside your code like a configuration file (eg a.properties file) or an environment variable. 
