@@ -12,14 +12,15 @@ public class App {
     public static void main(String[] args) throws Exception {
       
         // Fazer uma conexão HTTP e buscar os top 250 files
-       String url = "uri da api";
+       String url = "http://localhost:8080/languages";
+       ContentExtractor extractor = new ContentExtractorNasa();
        
        var http = new ClientHttp();
        String json = http.getData(url);
     
        
         // Exibir e manipular os dados
-        var extractor = new ContentExtractorNasa();
+        //var extractor = new ContentExtractorNasa();
         List<Content> contents = extractor.contentExtract(json);
         
         var generator = new StickerGenerator();

@@ -17,8 +17,8 @@ public class ContentExtractorNasa implements ContentExtractor {
 
           for(Map<String, String> atributes : atributesList){
             
-          String title = atributes.get(Key: "title");
-          String urlImage = atributes.get(Key: "url");
+          String title = atributes.get("title");
+          String urlImage = atributes.get("url");
 
            var content = new Content(title, urlImage);
  
